@@ -1,0 +1,11 @@
+.cancel-btn {
+	float: right;
+}
+
+.sub-btn {
+	float: left;
+}
+
+.error {
+	color: red;
+}

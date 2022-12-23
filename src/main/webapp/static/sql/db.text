@@ -1,0 +1,47 @@
+
+Phân tích cơ sở dữ liệu:
+
+1. products
+	- product_id int [PK] tự tăng
+	- product_name varchar (50)
+	- product_des longtext
+	- product_price float
+	- product_img_source varchar (255)
+	- product_type varchar (50)
+	- product_brand varchar (50)
+	
+2. accounts
+	- user_id int [PK] tự tăng
+	- user_name varchar (255)
+	- user_mail varchar (255)
+	- user_password varchar (255)
+	- user_role varchar(50) [FK] role(name)
+	- user_address varchar(255)
+	- user_phone varchar (20)
+	
+3. orders
+	- order_id int [PK] tự tăng
+	- user_id int [FK] account(user_id)
+	- order_mail varchar (255) 
+	- order_status bianary
+	- order_date datetime
+	- order_discount_code varchar(50)
+	- order_address varchar(255)
+	
+4. order_detail
+	- id int [PK] tự tăng
+	- order_id [FK] orders(order_id)
+	- product_id [FK] products(product_id)
+	- price float
+	- quantity float
+
+
+
+
+
+
+
+
+
+
+

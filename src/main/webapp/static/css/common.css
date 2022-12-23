@@ -1,0 +1,31 @@
+.test {
+	background-color: red;
+	color: white;
+}
+
+.img1 {
+	width: 300px;
+}
+
+.img-product{
+	margin-top: 24px;
+}
+
+.header {
+	margin-top: 0 !important;
+}
+
+.main {
+	margin-top: 2rem;
+}
+
+.logo-nav {
+	height: 50px;
+}
+
+.price{
+	font-size: 16px;
+	color: red;
+	font-weight: bold;
+}
+
