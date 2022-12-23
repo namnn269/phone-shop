@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBContext {
-	private final String url = "jdbc:mysql://localhost:3306/shoppingdb";
-	private final String user = "root";
-	private final String password = "12345678";
+	private final String url = "jdbc:mysql://b44c5bb4302696:4d30ca11@us-cdbr-east-06.cleardb.net/heroku_f4e55b2d6def88c?reconnect=true";
+	private final String user = "b44c5bb4302696";
+	private final String password = "4d30ca11";
 
 	public Connection getConnection() {
 		Connection conn = null;
